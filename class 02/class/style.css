@@ -1,0 +1,15 @@
+.header{
+    height: 320px;
+    background-image:
+    linear-gradient(to top, rgba(245, 246, 252, 0.52), rgba(112, 112, 112, 0.73)),
+    url('https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8ZWR1Y2F0aW9ufGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');
+    background-size: cover;  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: larger;
+}
+
+
