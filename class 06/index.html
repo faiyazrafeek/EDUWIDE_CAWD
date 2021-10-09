@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+   <p id="demo">
+
+   </p> 
+
+
+   <script>
+    let mark1 = 10;
+    let mark2 = 10;
+    let mark3 = 10;
+    let grade = 'none';
+
+    switch((mark1+mark2+mark3)/3){
+        case 10 :
+            grade = 'A';
+            break;
+        case 5 :
+            grade = 'B';
+            break;
+        case 1:
+            grade = 'C';
+            break;
+        case 0:
+            grade = 'W';
+            break;
+        default:
+            grade = 'Fail';
+            break;
+    }
+
+    let a = 10;
+    let marks= [60, 95, 12];
+
+    for(mark in marks){
+        console.log(marks[mark]);
+    }
+
+
+</script>
+</body>
+</html>
