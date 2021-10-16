@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <title>Classs 08</title>
+</head>
+<body>
+    <p style="display: none;">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, quis culpa. Esse, optio illum nam natus sed tenetur veritatis voluptatem.
+    </p>
+    <div style="background:#98bf21;height:100px;width:100px;position:absolute;"></div>
+
+
+    <script>
+        $(document).ready(function () {
+            $("div").click(function(){
+                $(this).animate({
+                    left: '250px',
+                    opacity : '0',
+                    height: '150px',
+                    width : '150px'
+                })
+                $('p').show()
+            })
+        })
+    </script>
+</body>
+</html>
